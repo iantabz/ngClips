@@ -1,10 +1,20 @@
+/** @format */
+
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyBZQn8zmLUbvWf0z-wrOh2UXnwk4WHvvf8',
+    authDomain: 'clips-c58f4.firebaseapp.com',
+    projectId: 'clips-c58f4',
+    storageBucket: 'clips-c58f4.appspot.com',
+    messagingSenderId: '551552719991',
+    appId: '1:551552719991:web:cfb1fccf7d263cd5477a72'
+  }
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
